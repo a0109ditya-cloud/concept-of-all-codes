@@ -16,7 +16,7 @@ int main(){
     while(temp>0){
         int digit = temp % 10;
         total = total + pow(digit, digits);
-        temp = twmp / 10;
+        temp = temp / 10;
     }
     if(orgnum==total){
         cout << "armstrong number" << endl;
